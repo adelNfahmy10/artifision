@@ -1,0 +1,45 @@
+<section class="vision-Plate py-10" id="vision-Plate">
+  <div class="container px-5 md:px-20">
+    <div class="grid md:grid-cols-2 grid-cols-1 gap-5 bg-[#373D47] rounded-2xl p-10 pb-0">
+      <div class="head-section md:col-span-2">
+        <h2 class="text-xl md:text-4xl text-center font-bold text-white">
+          Comprehensive Computer Vision Platform for <br><span class="text-[#2BD5BE]">Practical Enterprise Solutions</span>
+        </h2>
+
+        <p class="md:text-center md:px-20 text-sm mt-5 text-[#ccc]">
+          Artification's revolutionary technology has been tested and perfected by thousands of developers resulting in the most robust, end-to-end computer vision platform in the market. Our computer vision platform delivers unparalleled performance with its cutting-edge AI vision capabilities, offering superior accuracy, real-time insights, and scalability to meet diverse industry needs.
+        </p>
+      </div>
+      <div class="mx-auto shadow-sm divide-y divide-gray-100">
+        @for (item of items; track $index) {
+          <div class="p-5 cursor-pointer rounded-2xl mt-3" (click)="toggle($index)" >
+            <div class="flex justify-between items-center w-full">
+              <h3 class="text-[#2BD5BE] font-semibold text-md md:text-lg"><i [class]="'fa-solid ' + item.icon"></i> {{ item.title }}</h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 transition-transform duration-300"
+                [ngClass]="{ 'rotate-180 text-[#015426]': openIndex === $index, 'text-gray-400': openIndex !== $index }"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
+
+            <div
+              class="overflow-hidden transition-all duration-500 ease-in-out"
+              [style.maxHeight]="openIndex === $index ? '600px' : '0'"
+            >
+              <p class="text-[#ccc] mt-3 text-sm leading-relaxed" [innerHTML]="item.content"></p>
+            </div>
+          </div>
+        }
+      </div>
+      <div class="relative flex justify-center items-center">
+        <img src="assets/New folder/original-91b920c5af3417e456bc46004300944d.gif" class="rounded-t-full" alt="" />
+        <div class="absolute inset-0 bg-[#2BD5BE] opacity-40 rounded-t-full"></div>
+      </div>
+    </div>
+  </div>
+</section>

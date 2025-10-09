@@ -1,0 +1,51 @@
+.bg-ai-section {
+  position: relative;
+  background: radial-gradient(circle at 20% 30%, #0d0d0d, #000);
+}
+
+.animate-gradientMove {
+  background: linear-gradient(120deg, #0d0d0d, #015426, #001f3f, #0d0d0d);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+  filter: blur(120px);
+}
+
+/* حركة الخلفية */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* الأشكال المتوهجة */
+.ai-shape {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 255, 195, 0.6) 0%, transparent 70%);
+  animation: floatShape 8s ease-in-out infinite;
+  filter: blur(40px);
+  opacity: 0.6;
+}
+
+@keyframes floatShape {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-40px) scale(1.1);
+  }
+}
+
+.delay-2000 {
+  animation-delay: 2s;
+}
+
+.delay-4000 {
+  animation-delay: 4s;
+}
