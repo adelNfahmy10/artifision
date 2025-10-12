@@ -27,6 +27,10 @@ export class ResourcesAndGuides {
         slidesPerView: 3,
         spaceBetween:20,
       },
+      576: {
+        slidesPerView: 2,
+        spaceBetween:20,
+      },
       0: {
         slidesPerView: 1,
         spaceBetween:20,
