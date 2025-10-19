@@ -40,25 +40,25 @@ export class ResourcesAndGuides {
 
   cards = [
   {
-    image: 'assets/resource/Construction_PPE_1.webp',
+    image: 'assets/resource/Computer Vision Solutions (CV) Explained.png',
     title: 'Computer Vision Solutions (CV) Explained',
     description:
       'CV is a cutting-edge field of artificial intelligence (AI) that empowers computers to interpret and understand the world around them. It allows businesses to detect people, objects, and events – in real-time – to capture more accurate data and detect beyond what employees can monitor.',
   },
   {
-    image: 'assets/resource/blurring_the_detection_of_customers_in_a_store-2.webp',
+    image: 'assets/resource/How to Preserve Data Privacy.png',
     title: 'How to Preserve Data Privacy With Computer Vision Solutions',
     description:
       'Learn about privacy-preserving computer vision applications that drive meaningful insights for businesses and boost ROI.',
   },
   {
-    image: 'assets/resource/traffic_analytics_using_object_detection__blog_3.webp',
+    image: 'assets/resource/Object Detection Apps and.png',
     title: 'Object Detection Apps and Software for Business',
     description:
       "Build and deploy powerful object detection apps and software with alwaysAI's user-friendly platform, pre-trained models, and flexible APIs.",
   },
   {
-    image: 'assets/resource/Empty_cone_detected_on_ice_cream_assembly_line-4.webp',
+    image: 'assets/resource/Automated Anomaly Detection.png',
     title: 'Automated Anomaly Detection in Manufacturing',
     description:
       'Computer vision and machine learning offer powerful capabilities to collect and understand real-time data - automating anomaly detection and improving manufacturing production efficiency.',
@@ -70,13 +70,13 @@ export class ResourcesAndGuides {
       'Learn all about object tracking and how to use re-identification with computer vision platforms for improved business operations.',
   },
   {
-    image: 'assets/resource/yolo_architectures-6.webp',
+    image: 'assets/resource/What YOLO Model Architecture.png',
     title: 'What YOLO Model Architecture Is Best for You?',
     description:
       'Many different YOLO models claim to be the best. Newer doesn’t mean better. Learn how to choose the correct YOLO version based on your needs.',
   },
   {
-    image: 'assets/resource/Revised_ChatGPT_vs_Computer_Vision-7.webp',
+    image: 'assets/resource/Computer Vision is Not Generative Al, Its Practical AI.png',
     title: "Computer Vision is Not Generative AI, It's Practical AI",
     description:
       'Generative AI and computer vision are two types of AI that transform the way businesses operate across industries. Learn how computer vision works and how it practically addresses your business pain points to drive more revenue.',
