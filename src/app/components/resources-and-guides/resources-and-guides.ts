@@ -64,7 +64,7 @@ export class ResourcesAndGuides {
       'Computer vision and machine learning offer powerful capabilities to collect and understand real-time data - automating anomaly detection and improving manufacturing production efficiency.',
   },
   {
-    image: 'assets/resource/What_is_Object_Tracking_and_Re-Identification-5.webp',
+    image: 'assets/resource/What is Object Tracking and Re ldentification.png',
     title: 'What is Object Tracking and Re-Identification',
     description:
       'Learn all about object tracking and how to use re-identification with computer vision platforms for improved business operations.',
