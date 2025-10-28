@@ -1,9 +1,10 @@
 import { NgClass } from '@angular/common';
 import { Component } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-vision-platform',
-  imports: [NgClass],
+  imports: [NgClass, TranslatePipe],
   templateUrl: './vision-platform.html',
   styleUrl: './vision-platform.scss'
 })
@@ -16,29 +17,28 @@ export class VisionPlatform {
 
   items = [
     {
-      title: 'Advanced Dataset Management and MLOps',
-      content: `Collect and annotate digital images; train and evaluate AI vision models.`,
+      title: 'PLATFORM.POINTS.DATASET',
+      content: `PLATFORM.POINTS.DATASET_DESC`,
       icon: 'fa-layer-group'
     },
     {
-      title: 'Exceptional Application Development',
-      content: `Use our extensive API library to develop powerful AI vision applications for real-world deployments. Computer vision applications developed with alwaysAI are tailored to your business needs.`,
+      title: 'PLATFORM.POINTS.APP_DEV',
+      content: `PLATFORM.POINTS.APP_DEV_DESC`,
       icon: 'fa-laptop-code'
-
     },
     {
-      title: 'Convenient Remote Deployment',
-      content: `Easily deploy and manage AI vision models and applications remotely on the edge or in the cloud.`,
+      title: 'PLATFORM.POINTS.REMOTE_DEPLOY',
+      content: `PLATFORM.POINTS.REMOTE_DEPLOY_DESC`,
       icon:'fa-rocket'
     },
     {
-      title: 'Unprecedented Real-Time Analytics',
-      content: `Instantly act on real-time data generated from your cameras and AI vision.`,
+      title: 'PLATFORM.POINTS.REALTIME_ANALYTICS',
+      content: `PLATFORM.POINTS.REALTIME_ANALYTICS_DESC`,
       icon:'fa-chart-line'
     },
     {
-      title: 'Next-Level Scalability',
-      content: `Easily scale your AI vision applications across multiple cameras and locations. Our computer vision platform ensures that scalability is never an issue.`,
+      title: 'PLATFORM.POINTS.SCALABILITY',
+      content: `PLATFORM.POINTS.SCALABILITY_DESC`,
       icon:'fa-layer-group'
     }
   ];

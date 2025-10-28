@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { Navbar } from "./components/navbar/navbar";
 import { Home } from "./components/home/home";
 import { About } from "./components/about/about";
@@ -16,5 +16,5 @@ import { Footer } from "./components/footer/footer";
   styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('artifision');
+
 }

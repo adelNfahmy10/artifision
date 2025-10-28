@@ -1,21 +1,29 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { TranslateModule, TranslatePipe, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-navbar',
-  imports: [],
+  imports: [ TranslateModule, TranslatePipe ],
   templateUrl: './navbar.html',
   styleUrl: './navbar.scss'
 })
 export class Navbar {
+  private readonly _TranslateService = inject(TranslateService)
   isMenuOpen = false;
-  currentLang: 'ar' | 'en' = 'en';
-
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
   }
 
-  toggleLang() {
-    this.currentLang = this.currentLang === 'ar' ? 'en' : 'ar';
-    document.documentElement.dir = this.currentLang === 'ar' ? 'rtl' : 'ltr';
+  // Translation Code
+  lang: string =  'en';
+  switchLang() {
+    this.lang = this.lang === 'en' ? 'ar' : 'en';
+    this._TranslateService.use(this.lang);
+    const htmlTag = document.documentElement;
+    if (this.lang === 'en') { htmlTag.setAttribute('dir', 'ltr');
+      htmlTag.setAttribute('lang', 'en');
+    } else { htmlTag.setAttribute('dir', 'rtl');
+      htmlTag.setAttribute('lang', 'ar');
+    }
   }
 }

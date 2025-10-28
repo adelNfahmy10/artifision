@@ -1,0 +1,129 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "ABOUT": "About Us",
+    "SOLUTIONS": "Aivision Solutions",
+    "INDUSTRIES": "Industries",
+    "VISION_PLATE": "Vision Plate",
+    "RESOURCES": "Resources And Guides",
+    "CONTACT": "AI Contact"
+  },
+  "HERO": {
+    "TITLE_1": "Transforming Ideas into Intelligent Realities",
+    "DESC_1": "Empowering small and medium-sized businesses with next-generation AI and IoT technologies that streamline operations, boost productivity, and foster sustainable growth in a connected world.",
+    "BUTTON": "Get Started",
+    "TITLE_2": "Innovating the Future with AI & IoT",
+    "DESC_2": "We help businesses unlock their full potential through intelligent automation, smart connectivity, and data-driven innovation.",
+    "TITLE_3": "Empowering Saudi SMBs with AI Analytics systems",
+    "DESC_3": "Transforming small businesses through innovative technology and real-time insights powered by Artifision's AI solutions"
+  },
+  "ABOUT": {
+    "TITLE": "About Us",
+    "DESC": "Empowering small and medium-sized businesses (SMBs) with innovative AI and IoT solutions that enhance operational efficiency, optimize resource utilization, and drive sustainable growth in an increasingly competitive landscape."
+  },
+  "FEATURES": {
+    "AI_INSIGHTS": "AI Insights",
+    "AI_INSIGHTS_DESC": "Smarter, data-driven decisions in real time.",
+    "IOT": "IoT Integration",
+    "IOT_DESC": "Seamless device connectivity for operations.",
+    "SMART_CONNECTIVITY": "Smart Connectivity",
+    "SMART_CONNECTIVITY_DESC": "Real-time sync across systems and networks."
+  },
+  "VISION": {
+    "TITLE": "AI-Powered Vision Solutions for Automation and Intelligent Insights",
+    "HOW_WORK": "How Our Computer Vision Solutions Work",
+    "HOW_WORK_DESC": "Computer vision works by allowing businesses to detect people, objects, and events in real-time by leveraging your existing cameras alongside edge devices or the cloud. Detect beyond what your hired staff can monitor and capture more accurate visual data to target inefficiencies, detect anomalies, and better address productivity issues. Computer vision solutions provide the tools for visual inspection through advanced machine learning. We make AI vision implementation easy through our comprehensive computer vision platform.",
+    "WHY_CHOOSE": "Why Choose Our AI-Powered Vision Platform",
+    "WHY_CHOOSE_DESC": "Our AI-powered vision platform offers intelligent automation that enhances accuracy, reduces human error, and delivers actionable insights from visual data in real time. It’s designed to help businesses accelerate decision-making and optimize operations effortlessly.",
+    "WHY_ARTIFISION": "Why Choose Artifision",
+    "WHY_ARTIFISION_DESC": "At Artifision, we combine innovation, expertise, and advanced AI technology to deliver tailored computer vision solutions that fit your unique business needs. Our focus on reliability, scalability, and continuous improvement ensures long-term value and growth."
+  },
+  "INDUSTRIES": {
+    "TITLE": "Unlock the Power of Artifision's Computer Vision Solutions Across Industries",
+    "DESC": "Artifision's industry-agnostic computer vision solutions deliver continuous real-time data to optimize operations and provide actionable insights.",
+    "LIST": {
+      "LOGISTICS": "Logistics",
+      "WAREHOUSING": "Warehousing",
+      "MINING": "Mining",
+      "MANUFACTURING": "Manufacturing",
+      "CONSTRUCTION": "Construction",
+      "RESTAURANTS": "Restaurants",
+      "RETAIL": "Retail",
+      "VENUES": "Venues",
+      "ENERGY": "Energy"
+    }
+  },
+  "PLATFORM": {
+    "TITLE": "Comprehensive Computer Vision Platform for Practical Enterprise Solutions",
+    "DESC": "Our revolutionary technology delivers superior accuracy, real-time insights, and scalability to meet diverse industry needs.",
+    "POINTS": {
+      "DATASET": "Advanced Dataset Management and MLOps",
+      "DATASET_DESC": "Collect and annotate digital images; train and evaluate AI vision models.",
+      "APP_DEV": "Exceptional Application Development",
+      "APP_DEV_DESC": "Use our extensive API library to develop powerful AI vision applications for real-world deployments. Computer vision applications developed with alwaysAI are tailored to your business needs.",
+      "REMOTE_DEPLOY": "Convenient Remote Deployment",
+      "REMOTE_DEPLOY_DESC": "Easily deploy and manage AI vision models and applications remotely on the edge or in the cloud.",
+      "REALTIME_ANALYTICS": "Unprecedented Real-Time Analytics",
+      "REALTIME_ANALYTICS_DESC": "Instantly act on real-time data generated from your cameras and AI vision.",
+      "SCALABILITY": "Next-Level Scalability",
+      "SCALABILITY_DESC": "Easily scale your AI vision applications across multiple cameras and locations. Our computer vision platform ensures that scalability is never an issue."
+    }
+  },
+  "RESOURCES": {
+    "TITLE": "Explore Our Computer Vision Resources and Guides",
+    "SUBTITLE": "Explore resources about practical, enterprise AI vision.",
+    "NEWSLETTER": {
+      "MAIN_TITLE":"Artifision",
+      "SUB_TITLEE": "Insider",
+      "DESC": "Learn about computer vision trends and insights with our newsletter. Stay ahead with the latest in AI vision technology.",
+      "BUTTON": "Subscribe Now"
+    },
+    "ARTICLES": {
+      "CV_EXPLAINED": "Computer Vision Solutions (CV) Explained",
+      "CV_EXPLAINED_DESC": "Computer Vision (CV) is a cutting-edge field of Artificial Intelligence (AI) that enables computers to interpret and understand the world around them. It allows businesses to detect people, objects, and events in real time to capture more accurate data and monitor beyond human capability.",
+
+      "PRIVACY": "How to Preserve Data Privacy With Computer Vision Solutions",
+      "PRIVACY_DESC": "Learn about privacy-preserving computer vision applications that provide valuable insights for businesses and increase return on investment (ROI).",
+
+      "OBJECT_DETECTION": "Object Detection Apps and Software for Business",
+      "OBJECT_DETECTION_DESC": "Build and deploy powerful object detection applications using alwaysAI’s user-friendly platform, pre-trained models, and flexible APIs.",
+
+      "ANOMALY": "Automated Anomaly Detection in Manufacturing",
+      "ANOMALY_DESC": "Computer vision and machine learning provide powerful capabilities to collect and analyze real-time data, automate anomaly detection, and enhance manufacturing production efficiency.",
+
+      "TRACKING": "What is Object Tracking and Re-Identification",
+      "TRACKING_DESC": "Learn about object tracking and how to use re-identification techniques with computer vision platforms to improve business operations.",
+
+      "YOLO": "What YOLO Model Architecture Is Best for You?",
+      "YOLO_DESC": "There are many versions of the YOLO model, but newer doesn’t always mean better. Learn how to choose the most suitable YOLO architecture based on your business needs.",
+
+      "PRACTICAL_AI": "Computer Vision is Not Generative AI, It's Practical AI",
+      "PRACTICAL_AI_DESC": "Generative AI and computer vision are two transformative technologies reshaping how businesses operate. Discover how computer vision provides practical, data-driven solutions to address challenges and increase revenue."
+    }
+  },
+  "CONTACT": {
+    "TITLE": "Speak With an AI Expert Today To Learn How Practical Artificial Intelligence Can Transform Your Business.",
+    "DESC": "Our computer vision AI and machine learning experts are ready to help you harness the power of visual data. Book a meeting to learn about our computer vision services and discover how AI vision can significantly impact your business.",
+    "BUTTON": "Get Started"
+  },
+  "FOOTER": {
+    "ABOUT": "Empowering SMBs with innovative AI and IoT solutions that drive efficiency, enhance productivity, and foster growth in an increasingly digital world. By leveraging cutting-edge technology, we strive to unlock the full potential of small and medium-sized businesses, providing them with the tools they need to compete effectively and succeed in their respective industries.",
+    "CRN_TITLE": "Commercial Registration Number",
+    "CRN_VALUE": "7051704984",
+    "LINKS_TITLE": "Quick Links",
+    "LINKS": {
+      "HOME": "Home",
+      "ABOUT": "About Us",
+      "AIVISION": "Avision Solutions",
+      "INDUSTRIES": "Industries",
+      "VISION_PLATE": "Vision Plate",
+      "RESOURCES": "Resources And Guides",
+      "AI_CONTACT": "AI Contact"
+    },
+    "CONTACT_TITLE": "Contact Us",
+    "EMAIL": "info@artifision.com.sa",
+    "PHONE": "+966570555710",
+    "WHATSAPP": "+966570555710",
+    "COPYRIGHT": "Artifision © 2025 All Rights Reserved."
+  }
+}

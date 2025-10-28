@@ -1,27 +1,20 @@
 <section class="resources py-10 " id="resources">
   <div class="container px-5 lg:px-20">
     <div class="head-section">
-      <h2 class="text-xl md:text-4xl text-center font-bold">
-        Explore Our Computer Vision <br> <span class="main-color"> Resources and Guides </span>
-      </h2>
+      <h2 class="text-xl md:text-4xl text-center font-bold main-color">{{'RESOURCES.TITLE' | translate}}</h2>
 
-      <p class="text-center md:px-20 text-sm mt-3 text-gray-600">
-        Explore resources about practical, enterprise AI vision.
-      </p>
+      <p class="text-center md:px-20 mt-3 text-gray-600">{{'RESOURCES.SUBTITLE' | translate}}</p>
     </div>
   </div>
   <div class="my-5 relative">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center px-6 md:px-20 py-16 relative z-10">
       <div class="space-y-6">
         <h3 class="text-3xl md:text-4xl font-bold text-gray-800">
-          <span class="main-color text-6xl">Artifision</span> <span class="text-3xl"> Insider</span>
+          <span class="main-color text-6xl">{{'RESOURCES.NEWSLETTER.MAIN_TITLE' | translate}}</span> <span class="text-3xl"> {{'RESOURCES.NEWSLETTER.SUB_TITLEE' | translate}}</span>
         </h3>
-        <p class="text-gray-600 leading-relaxed text-md">
-          Learn about computer vision trends and insights with the alwaysAI newsletter.
-          Stay ahead with the latest in computer vision technology and AI vision.
-        </p>
+        <p class="text-gray-600 leading-relaxed text-md">{{'RESOURCES.NEWSLETTER.DESC' | translate}}</p>
         <button class="mt-4 px-6 py-3 text-[#444] rounded-full font-medium border border-1 border-gray-500 hover:bg-[#015426] hover:text-[white] transition cursor-pointer">
-          Subscribe Now
+          {{'RESOURCES.NEWSLETTER.BUTTON' | translate}}
         </button>
       </div>
 
@@ -44,6 +37,7 @@
 
   <div class="slider">
     <swiper-container
+      dir="rtl"
       class="mySwiper mx-5 md:mx-10"
       pagination="true"
       [slides-per-view]="swiperConfig.slidesPerView"
@@ -58,9 +52,9 @@
           <div class="bg-white shadow-lg rounded-2xl overflow-hidden transition-transform duration-500 hover:-translate-y-2 hover:shadow-2xl max-w-sm mx-auto" >
             <img [src]="item.image" [alt]="item.title" class="w-full h-56 object-cover" />
             <div class="p-5 space-y-3">
-              <h3 class="text-md font-semibold text-gray-800">{{ item.title }}</h3>
+              <h3 class="text-md font-semibold text-gray-800">{{ item.title | translate }}</h3>
               <p class="text-gray-600 text-sm leading-relaxed line-clamp-3">
-                {{ item.description }}
+                {{ item.description | translate }}
               </p>
               <button class="group mt-3 inline-flex items-center justitfy-center gap-0 text-[#015426] font-semibold relative transition-all duration-300 cursor-pointer" >
                 <span class="relative z-10">Read More</span>
